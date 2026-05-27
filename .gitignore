@@ -226,3 +226,6 @@ dist/
 
 # Vite
 .vite/
+
+.vscode/
+structure.txt
