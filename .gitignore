@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# React / Node
+node_modules/
+dist/
+
+# ML Models
+*.safetensors
+
+# Vite
+.vite/
