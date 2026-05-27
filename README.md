@@ -1,5 +1,3 @@
-# ai-text-sentiment-analyzer
-
 # AI Text Sentiment Analyzer
 
 An AI-powered web application that analyzes the sentiment of user-entered text using Natural Language Processing and Machine Learning.
@@ -97,6 +95,7 @@ AI Text Sentiment Analyzer/
 │   ├── package.json
 │   └── vite.config.js
 │
+├── screenshots/
 ├── requirements.txt
 └── README.md
 ```
@@ -121,11 +120,15 @@ git clone https://github.com/annzbanz/ai-text-sentiment-analyzer.git
 cd backend
 ```
 
+---
+
 ## 3. Create Virtual Environment
 
 ```bash
 python -m venv venv1
 ```
+
+---
 
 ## 4. Activate Virtual Environment
 
@@ -140,7 +143,7 @@ venv1\Scripts\activate
 ## 5. Install Backend Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r ../requirements.txt
 ```
 
 ---
@@ -172,6 +175,8 @@ http://127.0.0.1:8000/docs
 ```bash
 cd frontend
 ```
+
+---
 
 ## 8. Install Frontend Dependencies
 
@@ -228,6 +233,18 @@ POST /api/analyze
 
 ---
 
+# Model Note
+
+Large model weight files (`.safetensors`) were excluded from the repository due to GitHub size limitations.
+
+To run the project fully, place the trained model files inside:
+
+```bash
+backend/fine_tuned_model/
+```
+
+---
+
 # Screenshots
 
 ## Home Page
@@ -258,7 +275,7 @@ POST /api/analyze
 
 ![Sidebar Menu](screenshots/menubar.png)
 
-
+---
 
 # Future Improvements
 
@@ -269,14 +286,14 @@ POST /api/analyze
 - Cloud deployment
 - Real-time analytics dashboard
 
-
+---
 
 # Author
 
 Developed by Ann.
 
-
+---
 
 # License
 
-This project is created for learning purposes.
+This project was developed for educational and learning purposes.
